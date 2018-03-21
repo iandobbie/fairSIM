@@ -12,7 +12,7 @@ JAR = jar
 EXTDIR="./external"
 
 JFLAGS = -g -Xlint:unchecked -Xlint:deprecation -extdirs ./external -d ./
-JFLAGS+= -target 1.6 -source 1.6 -bootclasspath ./external/rt-1.6.jar
+JFLAGS+= -target 1.8 -source 1.8 -bootclasspath ./external/rt-1.8.jar
 #JFLAGS+= -release 6
 
 
